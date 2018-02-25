@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+	background-color: grey;
+	border: solid 1px black;
+}
+
+
+header,
+footer {
+	width: 1145px;
+	height: 100px;
+}
+
+header {
+	margin-bottom: 1%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+section {
+	width: 30%;
+	height:500px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 1%;
+	margin-left: 3%;
+}
+
+
+aside {
+	width: 60%;
+	height:500px;
+	float: right;
+	margin-bottom: 1%;
+	margin-right: 3%;
+}
+
+footer {
+	clear: both;
+	margin-right: 3%;
+	margin-left: 3%;
+}
